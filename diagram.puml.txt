@@ -1,0 +1,15 @@
+@startuml
+mind -> (Going to study, but the cat has no guard.)
+mind---> friend1
+friend1---->(Must go to study as well)
+friend1--->mind:Must go to study as well
+friend1--->mind:To take the cat to leave with friend2
+mind--->friend2
+friend ---> (I don't have any studies.)
+ (I don't have any studies.) ---> mind
+friend2----> boy
+friend2--->(I'll go to the guy, I'll take the cat too.)
+(I'll go to the guy, I'll take the cat too.)--->mind
+mind---->(ok)
+(ok)---->friend2
+@enduml

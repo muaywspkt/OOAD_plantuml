@@ -1,0 +1,11 @@
+@startuml
+mind -> (I want a cat to pet)
+mind ---> (Therefore went to invite friends to buy)
+(Therefore went to invite friends to buy)---> friend
+friend---> (Would like to have as well)
+(Would like to have as well) ---> mind
+mind ---> (I want to ask the roommate if I want it.)
+(I want to ask the roommate if I want it.) ---> mate
+mate ---> (Take a male cat)
+(Take a male cat)---> mind
+@enduml

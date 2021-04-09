@@ -1,0 +1,13 @@
+@startuml
+mind -> (Want to get a grade a subject ooad)
+(Want to get a grade a subject ooad) --->  friend
+ friend ---> mind :I can't do it
+friend1 ---> (You can do it for sure.)
+(You can do it for sure.) ---> mind
+friend1---> (You can't.)
+(You can't.)---> friend
+friend1---->(We have to help each other)
+(We have to help each other)--->mind
+friend1----> (We have to help each other)
+(We have to help each other)--->friend
+@enduml
